@@ -1,0 +1,153 @@
+<!doctype html>
+
+<html en="ru">
+	<head>
+    <title>Page Title</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/form.css" type="text/css">
+</head>
+
+<body>
+    <div class="header_menu">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sales</a></li>
+            <li><a href="#">For farmer</a></li>
+            <li><a href="#">none page</a></li>
+            <li><a href="#">none page</a></li>
+        </ul>
+
+    </div>
+
+
+    <div class="promo-block">
+
+        <div class="search">
+            <input id="search" type="text">
+            <button id="click" onclick="search()">Search</button>
+        </div>
+    </div>
+    <div class="top_menu">
+        <ul>
+            <li><a href="#">First child</a></li>
+            <li>
+                <p>Доставка экологически чистых продуктов</p>
+            </li>
+            <li><a href="#">Last child</a></li>
+        </ul>
+    </div>
+    <div class="body_container">
+        <div id="notification">
+            <p><a href="index.html">Главная</a> &raquo;
+                <a href="oformlenye.html">Оформление заказа</a></p>
+        </div>
+        <div class="text_1">
+            <p>Оформление заказа</p>
+        </div>
+        <div class="body_form">
+            <div class="table_notification">
+                <p>Покупатель</p>
+            </div>
+            <div class="column_notification">
+                <p>Основная информация</p>
+            </div>
+            <div class="alert">
+                <p>Внимание! Доставка производится только по Нижнему Новгороду.</p>
+            </div>
+
+
+
+
+
+            <table class="first-column">
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Имя
+                    </td>
+                    <td class="simple-customer-right"><input id="first-name" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Фамилия
+                    </td>
+                    <td class="simple-customer-right"><input id="last-name" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Контактный телефон
+                    </td>
+                    <td class="simple-customer-right"><input id="phone-number" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Ваш email
+                    </td>
+                    <td class="simple-customer-right"><input id="email" type="text"></td>
+
+                </tr>
+            </table>
+
+
+            <table class="second-column">
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Город
+                    </td>
+                    <td class="simple-customer-right"><input id="city" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Улица
+                    </td>
+                    <td class="simple-customer-right"><input id="street" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        <span class="simple-chekout-requred">*</span> Квартира
+                    </td>
+                    <td class="simple-customer-right"><input id="apartment" type="text"></td>
+
+                </tr>
+                <tr class="simple_table_row">
+                    <td class="simple-customer-left">
+                        Комментарий
+                    </td>
+                    <td class="simple-customer-right"><input id="comment" type="text"></td>
+
+                </tr>
+
+            </table>
+
+
+
+        </div>
+        <div class="alert_1">
+            <span class="simple-chekout-requred">*</span>
+            <p>Оплата товара производится лично при получении товара заказчиком, наличными или с помощью сервиса "сбербанк онлайн".</p>
+            <br>
+            <span class="simple-chekout-requred">*</span>
+            <p>При заказе на сумму выше 3000р. доставка - бесплатно.</p>
+        </div>
+      <div class="result_table">
+          
+        <table class="result">
+          <tr class="table_price_notification"><td class="table_simple_photo"><p>Фото</p></td>
+            <td class="table_simple_name"><p>Наименование товара</p></td>
+              <td class="table_simple_articul"><p>Артикул</p></td>
+              <td class="table_simple_quantity"><p>Кол-во</p></td>
+              <td class="table_simple_price"><p>Цена</p></td>
+              <td class="table_simple_summ"><p>Итого</p></td>
+            </tr>
+          </table>
+        </div>
+    </div>
+</body>
+</html>

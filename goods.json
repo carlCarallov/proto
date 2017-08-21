@@ -1,0 +1,26 @@
+{
+    "001" : {
+        "name": "Земляника полевая" ,
+        "price": 150,
+        "description": "Самая вкусная и полезная земляника",
+        "image": "images/redberry.jpg"
+    },
+    "002" : {
+        "name": "Черника полевая" ,
+        "price": 160,
+        "description": "Самая вкусная и полезная черника",
+        "image": "images/blackberry.jpg"
+    },
+    "003" : {
+        "name": "Клубника" ,
+        "price": 130,
+        "description": "Самая вкусная и полезная клубника",
+        "image": "images/klubnika.jpg"
+    },
+    "004" : {
+        "name": "Земляника садовая" ,
+        "price": 140,
+        "description": "Самая вкусная и полезная черника",
+        "image": "images/strawberry_sadovaya.jpg"
+    }
+}

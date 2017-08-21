@@ -1,0 +1,445 @@
+@import: url(reset.css);
+@font-face {
+    font-family: "Sans-serif";
+    src: url('../fonts/Sans-serif.ttf')
+}
+
+@font-face {
+    font-family: Myriad Pro Regular;
+    src: url('../fonts/Myriad pro regular.otf');
+}
+
+@font-face {
+    font-family: Segoe print_regular;
+    src: url('../fonts/Segoe print_regular.ttf');
+}
+
+body * {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #FFF8EB;
+}
+
+.header_menu {
+    position: static;
+    top: 10px;
+}
+
+.header_menu>ul {
+    display: flex;
+    justify-content: center;
+}
+
+.header_menu>ul {
+    margin: 10px 10px 10px 10px;
+    background: #0CE300;
+}
+
+.header_menu>ul li {
+    height: 100%;
+    list-style: none;
+    border-right: 1px solid #000;
+}
+
+.header_menu>ul li:hover {
+    background: #fff;
+    color: #000;
+}
+
+.header_menu>ul li:last-child {
+    border-right: none;
+}
+
+.header_menu>ul li a {
+    padding-left: 20px;
+    padding-right: 20px;
+    text-decoration: none;
+    font: bold 16px Segoe_print regular, Sans-serif, Arial;
+    color: #fff;
+}
+
+.header_menu>ul li a:hover {
+    color: #000;
+}
+
+.promo-block {
+    position: static;
+    margin-left: 13.2%;
+    display: block;
+    background: url(../images/headerLogo-bg.jpg) no-repeat;
+    height: 416px;
+    width: 960px;
+}
+.search {
+    position: absolute;
+    display: block;
+    height: 20px;
+    right: 15.5%;
+    top: 65%;
+}
+.search > input {
+    border: 1px solid #fff;
+    border-radius: 9px;
+    height: 21px;
+}
+
+.top_menu {
+    position: relative;
+    display: block;
+    width: 960px;
+    min-height: 10px;
+    background: #0CE300;
+    left: 13.2%;
+    top: 3px;
+}
+
+.top_menu>ul {
+    justify-content: center;
+    display: flex;
+    margin-left: -3px;
+}
+
+.top_menu>ul li {
+    margin-left: 20px;
+    list-style: none;
+    color: white;
+    font: bold 16px Segoe print_regular, Sans-serif, Arial;
+}
+
+.top_menu>ul li a {
+    text-decoration: none;
+    color: white;
+    font: bold 14px Segoe print_regular, Sans-serif, Arial;
+}
+
+.top_menu>ul li a:hover {
+    text-decoration: underline;
+}
+
+.top_menu>ul li p {
+    margin: 0px 15px 0px 15px;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    width: 100%;
+    top: 10px;
+    padding: 20px;
+    background: #FFF8EB;
+    height: 850px;
+}
+
+.content {
+    display: inline-flex;
+    justify-content: center;
+}
+
+.content div.center-column {}
+
+.left-column {
+    position: relative;
+    left: -42%;
+    min-width: 15%;
+    display: inline-block;
+    overflow: visible;
+    background: #0CE300;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    height: 250px;
+}
+
+.left-column h3 {
+    position: relative;
+    width: 110px;
+    top: 0px;
+    left: 40px;
+    color: #fff;
+    font: bold 18px Segoe print_regular, Sans-serif, Arial;
+    border-bottom: 2px solid #fff;
+}
+
+.left-column>ul {
+    width: 70%;
+    position: relative;
+    top: 20px;
+    left: 28px;
+    list-style: none;
+}
+
+.left-column>ul li {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+}
+
+.left-column>ul li:last-child {
+    border-bottom: none;
+}
+
+.left-column>ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    font: bold 18px Segoe print_regular, Sans-serif, Arial;
+    color: #fff;
+}
+
+.left-column>ul li:hover {
+    background: #fff;
+    text-decoration-color: #000;
+    box-shadow: 1px 5px 16px -5px black;
+    transition: all 0.3s ease;
+}
+
+.left-column>ul li a:hover {
+    background: #fff;
+    color: #000;
+    
+    transition: all 0.3s ease;
+}
+.left-column  li ul {
+    position: absolute;
+    width: 100px;
+    left: -150px;
+    display: none;
+    list-style: none;
+    background: #0CE300;
+}
+.left-column li> ul li {
+    border-bottom: 1px solid #fff;
+    font: bold 18px Segoe print_regular, Sans-serif, Arial;
+    height: 30px;
+   
+    background: #0CE300;
+}
+.left-column li> ul li a {
+   
+    text-transform: none;
+   
+}
+.left-column li:hover > ul{
+    display: block;
+    left:130px;
+    top: -0.5px;
+}
+.center-column {
+    position: absolute;
+    display: block;
+    width: 50%;
+    min-height: 700px;
+    left: 20%;
+    background: #F0E4CA;
+    border: 2px solid #F0E4CA;
+    border-radius: 20px;
+    justify-content: center;
+    padding-left: 10px;
+}
+
+.center-column>p.text_0 {
+    position: absolute;
+    display: block;
+    left: 40%;
+   
+    font: bold 18px Segoe print_regular, Sans-serif, Arial;
+}
+.products {
+    position: relative;
+    display: block;
+    width: 90%;
+    height: 800px;
+    margin-top: 40px;
+    margin-left: 35px;
+}
+.produscts>table   {
+    position: relative;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.products>table tr {
+    margin: 10px;
+}
+.block {
+    position: relative;
+    display: block;
+    width: 200px;
+    height: 250px;
+    background:white;
+    border: 1px solid #F6FEFF;
+    border-radius: 10px;
+}
+
+.image * {
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    width: 153px;
+    height: 145px;
+    position: absolute;
+    display: block;
+    top: 11px;
+    left: 11.3%;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.product_description {
+    position: absolute;
+    top: 66%;
+    left: 18%;
+    color: #000;
+    font: bold 16px Myriad Pro Regular, Sans-serif, Arial;
+}
+
+.price {
+    position: absolute;
+    top: 76%;
+    left: 40%;
+    font: bold 16px Myriad Pro Regular, Sans-serif, Arial;
+}
+.quantity {
+    position: absolute;
+    top: 80%;
+    left: 12%;
+    width: 60px;
+    height: 50px;
+}
+.plus {
+    position: absolute;
+    top: 5px;
+    left: -7px;
+    background: #fff;
+    width: 30px;
+    border: 1px solid #F0E4CA;
+    border-radius: 5px;
+    font: bold 14px Myriad Pro Regular, Sans-serif, Arial;
+    
+}
+.plus:hover {
+    border: 1px solid #000;
+    
+}
+.minus {
+    position: absolute;
+    top: 26px;
+    left: -7px;
+    width: 30px;
+    border: 1px solid #F0E4CA;
+    border-radius: 5px;
+    font: bold 14px Myriad Pro Regular, Sans-serif, Arial;
+    background: #fff;
+}
+.minus:hover {
+    border: 1px solid #000;
+}
+#quantity_1 {
+    position: absolute;
+    left: 31px;
+    top: 11px;
+    background: white;
+    width:25px;
+    height: 25px;
+    padding-left: 14px;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: -1px;
+    border: 1px solid #F0E4CA;
+    border-radius: 9px;
+}
+
+.cart {
+    position: absolute;
+    top: 87.5%;
+    left: 50%;
+    width: auto;
+    height: auto;
+}
+.cart> input {
+    width: 80px;
+    min-height: 25px;
+    background: #0CE300;
+    border: 1px solid #0CE300;
+    border-radius: 10px;
+    color: #fff;
+    font: bold 17px Myriad Pro Regular, Sans-serif, Arial;
+    
+}
+.cart>input:hover {
+    background: #fff;
+    color: #000;
+    border: 0.5px solid #000;
+}
+
+.right-column {
+    position: absolute;
+    right: 110px;
+    top: 2.5%;
+    width: 250px;
+    border: 2px solid #F7EBFF;
+    border-radius: 20px;
+    display: block;
+    background: #F7EBFF;
+    min-height: 300px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.sale-content {
+    width: 80%;
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.sale-content > ul {
+    list-style: none;
+}
+.sale-content >ul li {
+    margin-top: 5px;
+}
+.sale-content >ul li:last-child {
+    margin-bottom: 15px;
+}
+.sale-content > p {
+    width: 60px;
+    margin-left: 35%;
+    margin-bottom: 1%;
+    font: bold 18px Segoe print_regular, Sans-serif, Arial;
+}
+footer{
+    min-height: 300px;
+    background: #0CE300;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 5px;
+}
+.ft-content {
+    margin: 30px;
+    display: flex;
+}
+.left-list {
+    margin-top: 10px;
+    display: block;
+    min-height: 200px;
+    
+}
+.left-list > ul {
+    list-style: none;
+}
+.left-list > ul li {
+    margin-top: 8px;
+    
+}
+.left-list > ul li a {
+    text-decoration: none;
+    font: bold 16px Myriad Pro Regular, Sans-serif, Arial;
+    color: white;
+    
+}
+.left-list >ul li a:hover {
+    text-decoration: underline;
+    
+}
